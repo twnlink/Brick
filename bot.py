@@ -63,7 +63,7 @@ Then do `b!verify {discord.utils.escape_mentions(args[0])}` again to verify your
                     else:
                         await ctx.send("ERROR: I can't find that user.")
     else:
-        ctx.send("ERROR: No arguments were provided.")
+        await ctx.send("ERROR: No arguments were provided.")
 
 
 bot.run('')
